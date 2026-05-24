@@ -105,16 +105,16 @@ These are **guaranteed to appear** in some form. Master these 5 types first.
 
 **Q. (May 2024)** Activities with predecessors & durations (to, tm, tp). Z-table given:
 
-| Activity | Predecessor | to | tm | tp |
-|----------|-------------|----|----|----|
-| A | - | 2 | 4 | 12 |
-| B | - | 10 | 9 | 12 |
-| C | A | 8 | 9 | 10 |
-| D | A | 10 | 15 | 20 |
-| E | A | 7 | 7.5 | 11 |
-| F | B, C | 9 | 9 | 9 |
-| G | D | 3 | 3.5 | 7 |
-| H | E, F, G | 5 | 5 | 5 |
+| Activity | Predecessor | to  | tm  | tp  |
+| -------- | ----------- | --- | --- | --- |
+| A        | -           | 2   | 4   | 12  |
+| B        | -           | 10  | 9   | 12  |
+| C        | A           | 8   | 9   | 10  |
+| D        | A           | 10  | 15  | 20  |
+| E        | A           | 7   | 7.5 | 11  |
+| F        | B, C        | 9   | 9   | 9   |
+| G        | D           | 3   | 3.5 | 7   |
+| H        | E, F, G     | 5   | 5   | 5   |
 
 **(i) Draw network. (ii) Critical path & expected duration. (iii) Standard deviation & variance. (iv) Probability of completing in 30 weeks.**
 
